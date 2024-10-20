@@ -1,0 +1,33 @@
+.Login {
+    background-image: url('clgbg.jpg'); /* Ensure the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures the container covers the full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+.title {
+text-align: center;
+margin-bottom: 20px; /* Give some space below the title */
+color: black;
+font-size: 24px;
+}
+
+
+
+/* Styles for the main title (mail title) at the top */
+.maintitle {
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Adjust the distance from the top */
+    width: 100%; /* Ensure it spans the full width */
+    text-align: center;
+    color: blue;
+    font-size: 34px;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }

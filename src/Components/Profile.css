@@ -1,0 +1,30 @@
+.Home {
+ 
+    display: flex;
+    height: 100vh;
+   
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .personal-details, .student-notifications, .notifications {
+    margin-bottom: 20px;
+  }
+  
+
+
+  .home
+  {
+    margin: 0;
+    padding: 0;
+  }
